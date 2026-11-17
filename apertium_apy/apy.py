@@ -36,6 +36,7 @@ from apertium_apy import missingdb
 from apertium_apy import systemd
 from apertium_apy.mode_search import search_path, search_prefs
 from apertium_apy.utils.wiki import wiki_login, wiki_get_token
+from apertium_apy.handlers.translate_llm import llm_handlers
 
 from apertium_apy.handlers import (
     AnalyzeHandler,
@@ -321,6 +322,8 @@ def setup_application(args):
     if args.fasttext_model and importlib_util.find_spec('fasttext') is not None:
         import fasttext
         IdentifyLangHandler.fasttext = fasttext.FastText.load_model(args.fasttext_model)
+
+    handlers.extend(llm_handlers(args.config))
 
     # TODO: fix mypy. Application expects List but List is invariant and we use subclasses
     return tornado.web.Application(handlers)  # type:ignore
