@@ -49,6 +49,8 @@ en	pan_Arab	Punjabi (Arabic)
 en	pan_Guru	Punjabi (Gurmukhi)
 en	por_BR	Brazilian Portuguese
 en	por_PTpre1990	European Port. (trad. spelling)
+en	sma_Mid	South Sámi, short forms
+en	sma_North	South Sámi, long forms
 en	tgk_translit	Tajik Transliterated
 en	zab_Phon	Dìiʼzhsah (Phonemic spelling)
 en	zab_Simp	Dizhsa (Simplified spelling)
@@ -111,18 +113,24 @@ nb	nno_e	nynorsk e-infinitiv, vi→vi
 nb	nno_e_me	nynorsk e-infinitiv, vi→me
 nb	oci_aran	araneisk
 nb	por_BR	brasiliansk portugisisk
+nb	sma_Mid	sørsamisk kortformer
+nb	sma_North	sørsamisk langformer
 nn	cat_valencia	valensiansk
 nn	nno_a_vi	nynorsk e-infinitiv, vi→vi
 nn	nno_e	nynorsk e-infinitiv, vi→vi
 nn	nno_e_me	nynorsk e-infinitiv, vi→me
 nn	oci_aran	araneisk
 nn	por_BR	brasiliansk portugisisk
+nn	sma_Mid	sørsamisk kortformer
+nn	sma_North	sørsamisk langformer
 no	cat_valencia	valensiansk
 no	nno_a_vi	nynorsk e-infinitiv, vi→vi
 no	nno_e	nynorsk e-infinitiv, vi→vi
 no	nno_e_me	nynorsk e-infinitiv, vi→me
 no	oci_aran	araneisk
 no	por_BR	brasiliansk portugisisk
+no	sma_Mid	sørsamisk kortformer
+no	sma_North	sørsamisk langformer
 oci	cat_valencia	Valencian
 oci	oci_aran	Aranés
 oci	oci_gascon	Gascon
